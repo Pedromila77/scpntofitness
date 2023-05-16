@@ -1,0 +1,52 @@
+header {
+    .navBar__logo {
+        width: 70px;
+        animation-name: zoom;
+        animation-duration: 2s;
+        animation-delay: 2s;
+        animation-iteration-count: initial;
+        animation-direction: alternate;
+        
+    }
+    
+    .navbar.navbar-expand-lg {
+        background-color: $mainColor;
+
+        .collapse.navbar-collapse {
+            justify-content: end;
+
+            .navbar__pages {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                gap: 1rem;
+                font-family: 'Ysabeau', sans-serif;
+                font-weight: 600;
+
+                .nav-link {
+                    transition: 3s;
+                    &:hover {
+                        transform: rotateZ(360deg)
+                    }
+                }
+            }
+        }
+        div {
+            ul {
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    
+}
+@keyframes zoom {
+    0% {
+    width: 70px;
+    }
+    100% {
+    width: 110px;  
+    }
+    
+}

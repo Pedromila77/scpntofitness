@@ -1,0 +1,485 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@0,1;0,100;0,200;0,400;0,600;1,100;1,200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* body {
+  background-color: rgb(19, 19, 19);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header .navBar__logo {
+  width: 70px;
+  animation-name: zoom;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-iteration-count: initial;
+  animation-direction: alternate;
+}
+header .navbar.navbar-expand-lg {
+  background-color: rgb(175, 175, 175);
+}
+header .navbar.navbar-expand-lg .collapse.navbar-collapse {
+  justify-content: end;
+}
+header .navbar.navbar-expand-lg .collapse.navbar-collapse .navbar__pages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  font-family: "Ysabeau", sans-serif;
+  font-weight: 600;
+}
+header .navbar.navbar-expand-lg .collapse.navbar-collapse .navbar__pages .nav-link {
+  transition: 3s;
+}
+header .navbar.navbar-expand-lg .collapse.navbar-collapse .navbar__pages .nav-link:hover {
+  transform: rotateZ(360deg);
+}
+header .navbar.navbar-expand-lg div ul a {
+  text-decoration: none;
+}
+
+@keyframes zoom {
+  0% {
+    width: 70px;
+  }
+  100% {
+    width: 110px;
+  }
+}
+.main__bg .container.main__carousel {
+  margin-bottom: 2rem;
+  width: 1250px;
+  border-radius: 10px;
+}
+.main__bg .container.main__carousel .main__tittle {
+  font-family: "Ysabeau", sans-serif;
+  font-weight: 200;
+  text-align: center;
+  margin-block: 20px;
+  text-decoration-line: underline;
+  color: white;
+}
+.main__bg .container.main__carousel .carousel.slide img {
+  width: 40px;
+}
+.main__bg .container.main__carousel .carousel.slide .carousel-inner .carousel-item .gym__images__header,
+.main__bg .container.main__carousel .carousel.slide .carousel-inner .carousel-item .gym__images__description {
+  color: black;
+  background-color: white;
+  font-family: "Ysabeau", sans-serif;
+  font-size: 24px;
+}
+
+.bgimg__header {
+  background-image: url(../images/headerimg2.jpg);
+  background-repeat: none;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-family: "Ysabeau", sans-serif;
+  font-weight: 400;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-bottom: 0;
+}
+
+.container .profile__card1 {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.062);
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 15px;
+}
+.container .profile__card1 .profile__image {
+  width: 300px;
+  border: double 3px;
+  border-radius: 5px;
+  border-color: black;
+  margin: 15px;
+}
+.container .profile__card1 .profile__description1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.container .profile__card2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.062);
+  align-items: center;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 15px;
+}
+.container .profile__card2 .profile__image {
+  width: 300px;
+  border: double 3px;
+  border-radius: 5px;
+  border-color: black;
+  margin: 15px;
+}
+.container .profile__card2 .profile__description2 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+div ul li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.accordion-body .accordion__chest__images {
+  width: 200px;
+  margin: 10px;
+  border-radius: 4px;
+  border: black double;
+}
+.accordion-body .accordion__back__images {
+  width: 200px;
+  margin: 10px;
+  border-radius: 4px;
+  border: black double;
+}
+.accordion-body .accordion__legs__images {
+  width: 200px;
+  margin: 10px;
+  border-radius: 4px;
+  border: black double;
+}
+.accordion-body .accordion__other__images {
+  width: 200px;
+  margin: 10px;
+  border-radius: 4px;
+  border: black double;
+}
+
+.form__text {
+  text-align: center;
+  color: white;
+  font-family: "Ysabeau", sans-serif;
+  font-weight: 100;
+  margin: 20px;
+}
+
+.container.contact__form {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.container.contact__form .arnold {
+  width: 600px;
+}
+.container.contact__form .form__inscription {
+  width: 100%;
+  max-width: 50%;
+  padding: 20px;
+}
+
+.container.explain {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(21, 1fr);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  grid-template-areas: " chest01__text  chest01__text  chest01__img" " chest02__img   chest02__text   chest02__text" " chest03__text    chest03__text   chest03__img" " back01__img   back01__text   back01__text" " back02__text   back02__text   back02__img" " legs01__img   legs01__text   legs01__text" " legs02__text   legs02__text   legs02__img" " legs03__img   legs03__text   legs03__text" " legs04__text   legs04__text   legs04__img" " legs05__img   legs05__text   legs05__text" " legs06__text   legs06__text   legs06__img" " legs07__img   legs07__text   legs07__text" " legs08__text   legs08__text   legs08__img" "legs09__img   legs09__text   legs09__text" " legs10__text   legs10__text   legs10__img" " other01__img    other01__text   other01__text" " other02__text    other02__text   other02__img" " other03__img    other03__text   other03__text" " other04__text    other04__text   other04__img" " other05__img    other05__text   other05__text" " other06__text    other06__text   other06__img";
+}
+.container.explain .explain__images {
+  width: 80%;
+  border: 2px solid white;
+}
+
+.container.explain > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container.explain > img {
+  align-items: center;
+}
+
+.chest01__img {
+  grid-area: chest01__img;
+}
+
+.chest01__text {
+  grid-area: chest01__text;
+  color: white;
+}
+
+.chest02__img {
+  grid-area: chest02__img;
+}
+
+.chest02__text {
+  grid-area: chest02__text;
+  color: white;
+}
+
+.chest03__img {
+  grid-area: chest03__img;
+}
+
+.chest03__text {
+  grid-area: chest03__text;
+  color: white;
+}
+
+.back01__img {
+  grid-area: back01__img;
+}
+
+.back01__text {
+  grid-area: back01__text;
+  color: white;
+}
+
+.back02__img {
+  grid-area: back02__img;
+}
+
+.back02__text {
+  grid-area: back02__text;
+  color: white;
+}
+
+.legs01__img {
+  grid-area: legs01__img;
+}
+
+.legs01__text {
+  grid-area: legs01__text;
+  color: white;
+}
+
+.legs02__img {
+  grid-area: legs02__img;
+}
+
+.legs02__text {
+  grid-area: legs02__text;
+  color: white;
+}
+
+.legs03__img {
+  grid-area: legs03__img;
+}
+
+.legs03__text {
+  grid-area: legs03__text;
+  color: white;
+}
+
+.legs04__img {
+  grid-area: legs04__img;
+}
+
+.legs04__text {
+  grid-area: legs04__text;
+  color: white;
+}
+
+.legs05__img {
+  grid-area: legs05__img;
+}
+
+.legs05__text {
+  grid-area: legs05__text;
+  color: white;
+}
+
+.legs06__img {
+  grid-area: legs06__img;
+}
+
+.legs06__text {
+  grid-area: legs06__text;
+  color: white;
+}
+
+.legs07__img {
+  grid-area: legs07__img;
+}
+
+.legs07__text {
+  grid-area: legs07__text;
+  color: white;
+}
+
+.legs08__img {
+  grid-area: legs08__img;
+}
+
+.legs08__text {
+  grid-area: legs08__text;
+  color: white;
+}
+
+.legs09__img {
+  grid-area: legs09__img;
+}
+
+.legs09__text {
+  grid-area: legs09__text;
+  color: white;
+}
+
+.legs10__img {
+  grid-area: legs10__img;
+}
+
+.legs10__text {
+  grid-area: legs10__text;
+  color: white;
+}
+
+.other01__img {
+  grid-area: other01__img;
+}
+
+.other01__text {
+  grid-area: other01__text;
+  color: white;
+}
+
+.other02__img {
+  grid-area: other02__img;
+}
+
+.other02__text {
+  grid-area: other02__text;
+  color: white;
+}
+
+.other03__img {
+  grid-area: other03__img;
+}
+
+.other03__text {
+  grid-area: other03__text;
+  color: white;
+}
+
+.other04__img {
+  grid-area: other04__img;
+}
+
+.other04__text {
+  grid-area: other04__text;
+  color: white;
+}
+
+.other05__img {
+  grid-area: other05__img;
+}
+
+.other05__text {
+  grid-area: other05__text;
+  color: white;
+}
+
+.other06__img {
+  grid-area: other06__img;
+}
+
+.other06__text {
+  grid-area: other06__text;
+  color: white;
+}
+
+footer {
+  background-color: rgb(175, 175, 175);
+  position: relative;
+  bottom: 0;
+  margin-top: auto;
+}
+footer .container.footer__contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+footer .container.footer__contenedor .footer__instagram {
+  width: 60px;
+  padding: 10px;
+}
+footer .container.footer__contenedor .footer__facebook {
+  width: 60px;
+  padding: 10px;
+}
+
+.footer__redsocial:hover {
+  background-color: #C13584;
+}
+
+.footer__redsocial:hover {
+  background-color: #0061a9;
+}
+
+@media (max-width: 780px) {
+  .main__tittle {
+    margin-block: 10px;
+    font-weight: 100;
+  }
+  .carousel.slide img {
+    width: 20px;
+  }
+  .carousel.slide .carousel-inner .carousel-item .gym__images__header,
+  .carousel.slide .carousel-inner .carousel-item .gym__images__description {
+    color: black;
+    background-color: white;
+    font-family: "Ysabeau", sans-serif;
+    font-size: 12px;
+  }
+}
+@media (max-width: 770px) {
+  div ul li {
+    text-decoration: none;
+    list-style-type: circle;
+  }
+}
+@media (max-width: 580px) {
+  .container.explain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 1400px) {
+  .container.contact__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .form__inscription {
+    width: 100%;
+    padding: 0;
+  }
+}
+@media (min-width: 770px) {
+  .container.footer__contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+@media (max-width: 770px) {
+  footer {
+    background-color: rgb(175, 175, 175);
+    position: relative;
+    bottom: 0;
+    margin-top: auto;
+  }
+}/*# sourceMappingURL=estilo.css.map */

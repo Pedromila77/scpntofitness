@@ -1,0 +1,58 @@
+.main__bg {
+    
+    .container.main__carousel {
+        margin-bottom: 2rem;
+        width: 1250px;
+        border-radius: 10px;
+
+        .main__tittle {
+            font-family: 'Ysabeau', sans-serif;
+            font-weight: 200;
+            text-align: center;
+            margin-block: 20px;
+            text-decoration-line: underline;
+            color: white;
+
+        }
+
+        .carousel.slide {
+            img {
+                width: 40px;
+            }
+
+            .carousel-inner {
+                .carousel-item {
+
+                    .gym__images__header,
+                    .gym__images__description {
+                        color: black;
+                        background-color: white;
+                        font-family: 'Ysabeau', sans-serif;
+                        font-size: 24px;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+.bgimg__header {
+    background-image: url(../images/headerimg2.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Ysabeau', sans-serif;
+    font-weight: 400;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-bottom: 0;
+
+}
+
+
+

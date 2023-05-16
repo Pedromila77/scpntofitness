@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@0,1;0,100;0,200;0,400;0,600;1,100;1,200&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@0,1;0,100;0,200;0,400;0,600;1,100;1,200&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} 
 
 body {
     background-color: rgb(19, 19, 19);
@@ -36,9 +36,9 @@ body {
 
 div ul a {
     text-decoration: none;
-}
+} */
 
-.main__tittle {
+/* .main__tittle {
     font-family: 'Ysabeau', sans-serif;
     font-weight: 200;
     text-align: center;
@@ -46,27 +46,27 @@ div ul a {
     text-decoration-line: underline;
     color: white;
 
-}
+} */
 
-.container.main__carousel {
+/* .container.main__carousel {
     margin-bottom: 2rem;
     width: 1250px;
     border-radius: 10px;
-}
+} */
 
-.carousel.slide img {
+/* .carousel.slide img {
     width: 40px;
-}
+} */
 
-.gym__images__header,
+/* .gym__images__header,
 .gym__images__description {
     color: black;
     background-color: white;
     font-family: 'Ysabeau', sans-serif;
     font-size: 24px;
-}
+} */
 
-.bgimg__header {
+/* .bgimg__header {
     background-image: url(../images/headerimg2.jpg);
     background-repeat: none;
     background-size: cover;
@@ -80,16 +80,16 @@ div ul a {
     padding-top: 200px;
     padding-bottom: 200px;
     /* margin-bottom: 2rem; */
-}
 
-footer {
+
+/* footer {
     background-color: rgb(175, 175, 175);
     position: relative;
     bottom: 0;
     margin-top: auto;
-}
+} */
 
-.container.footer__contenedor {
+/* .container.footer__contenedor {
     display: flex;
     flex-direction: row;
     justify-content: end;
@@ -101,9 +101,9 @@ footer {
     width: 60px;
     padding: 10px;
 
-}
+} */
 
-.profile__image {
+/* .profile__image {
     width: 300px;
     border: double 3px;
     border-radius: 5px;
@@ -112,11 +112,6 @@ footer {
 
 }
 
-.profiles {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .profile__card1 {
     display: flex;
@@ -146,10 +141,10 @@ footer {
     text-align: center;
     color: black;
 
-}
+} */
 
 
-.accordion__chest__images {
+/* .accordion__chest__images {
     width: 200px;
     margin: 10px;
     border-radius: 4px;
@@ -175,9 +170,9 @@ footer {
     margin: 10px;
     border-radius: 4px;
     border: black double;
-}
+} */
 
-.container.contact__form {
+/* .container.contact__form {
     display: flex;
     flex-direction: row-reverse;
 }
@@ -199,17 +194,5 @@ footer {
 .arnold {
     width: 600px;
 
-}
+} */
 
-@media (max-width: 1400px) {
-    .container.contact__form {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .form__inscription {
-        width: 100%;
-    }
-
-}

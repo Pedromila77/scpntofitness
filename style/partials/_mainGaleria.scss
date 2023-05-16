@@ -1,0 +1,212 @@
+.container.explain {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(21, 1fr);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    grid-template-areas: 
+    
+    " chest01__text  chest01__text  chest01__img"
+    " chest02__img   chest02__text   chest02__text"
+    " chest03__text    chest03__text   chest03__img"
+    " back01__img   back01__text   back01__text"
+    " back02__text   back02__text   back02__img"
+    " legs01__img   legs01__text   legs01__text"
+    " legs02__text   legs02__text   legs02__img"
+    " legs03__img   legs03__text   legs03__text"
+    " legs04__text   legs04__text   legs04__img"
+    " legs05__img   legs05__text   legs05__text"
+    " legs06__text   legs06__text   legs06__img"
+    " legs07__img   legs07__text   legs07__text"
+    " legs08__text   legs08__text   legs08__img"
+    "legs09__img   legs09__text   legs09__text"
+    " legs10__text   legs10__text   legs10__img"
+    " other01__img    other01__text   other01__text"
+    " other02__text    other02__text   other02__img"
+    " other03__img    other03__text   other03__text"
+    " other04__text    other04__text   other04__img"
+    " other05__img    other05__text   other05__text"
+    " other06__text    other06__text   other06__img"
+    ;
+   
+
+    .explain__images {
+        width: 80%;
+        border: 2px solid white;
+       
+    }
+}
+.container.explain > p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.container.explain > img {
+  align-items: center;
+    
+}
+
+.chest01__img {
+    grid-area: chest01__img;
+}
+
+.chest01__text {
+    grid-area: chest01__text;
+    color: white;
+}
+
+.chest02__img {
+    grid-area: chest02__img;
+}
+
+.chest02__text {
+    grid-area: chest02__text;
+    color: white;
+}
+
+.chest03__img {
+    grid-area: chest03__img;
+}
+
+.chest03__text {
+    grid-area: chest03__text;
+    color: white;
+}
+
+.back01__img {
+grid-area: back01__img ;
+}
+.back01__text {
+grid-area: back01__text ;
+color: white;
+}
+.back02__img {
+grid-area: back02__img ;
+}
+.back02__text {
+ grid-area: back02__text ;
+ color: white;   
+}
+
+.legs01__img {
+    grid-area: legs01__img;
+}
+.legs01__text {
+    grid-area: legs01__text;
+    color: white;
+}
+.legs02__img {
+    grid-area: legs02__img;
+}
+.legs02__text {
+    grid-area: legs02__text;
+    color: white;
+}
+.legs03__img {
+    grid-area: legs03__img;
+}
+.legs03__text {
+    grid-area: legs03__text;
+    color: white;
+}
+.legs04__img {
+    grid-area: legs04__img;
+}
+.legs04__text {
+    grid-area: legs04__text;
+    color: white;
+}
+.legs05__img {
+    grid-area: legs05__img;
+}
+.legs05__text {
+    grid-area: legs05__text;
+    color: white;
+}
+.legs06__img {
+    grid-area: legs06__img;
+}
+.legs06__text {
+    grid-area: legs06__text;
+    color: white;
+}
+.legs07__img {
+    grid-area: legs07__img;
+}
+.legs07__text {
+    grid-area: legs07__text;
+    color: white;
+}
+.legs08__img {
+    grid-area: legs08__img;
+}
+.legs08__text {
+    grid-area: legs08__text;
+    color: white;
+}
+.legs09__img {
+    grid-area: legs09__img;
+}
+.legs09__text {
+    grid-area: legs09__text;
+    color: white;
+}
+.legs10__img {
+    grid-area: legs10__img;
+}
+.legs10__text {
+    grid-area: legs10__text;
+    color: white;
+}
+
+.other01__img {
+    grid-area: other01__img
+}
+.other01__text {
+    grid-area: other01__text;
+    color: white;
+}
+.other02__img {
+    grid-area: other02__img
+}
+.other02__text {
+    grid-area: other02__text;
+    color: white;
+}
+.other03__img {
+    grid-area: other03__img
+}
+.other03__text {
+    grid-area: other03__text;
+    color: white;
+}
+.other04__img {
+    grid-area: other04__img
+}
+.other04__text {
+    grid-area: other04__text;
+    color: white;
+}
+.other05__img {
+    grid-area: other05__img
+}
+.other05__text {
+    grid-area: other05__text;
+    color: white;
+}
+.other06__img {
+    grid-area: other06__img
+}
+.other06__text {
+    grid-area: other06__text;
+    color: white;
+}
+
+
+
+
+
+
+

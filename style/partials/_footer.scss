@@ -1,0 +1,31 @@
+footer {
+    background-color: rgb(175, 175, 175);
+    position: relative;
+    bottom: 0;
+    margin-top: auto;
+    .container.footer__contenedor{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        
+        .footer__instagram {
+            width: 60px;
+            padding: 10px;
+        }
+        .footer__facebook {
+            width: 60px;
+            padding: 10px;
+        }
+    }
+}
+$redes: (
+    instagram: #C13584,
+    facebook:  #0061a9
+);
+@each $redsocial, $colordered in $redes {
+
+    .footer__#{redsocial}:hover {
+        background-color: $colordered
+    }
+
+}
