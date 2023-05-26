@@ -1,29 +1,13 @@
-@media (max-width: 780px) {
-    .main__tittle {
-        margin-block: 10px;
-        font-weight: 100;
-    }
-
-    .carousel.slide {
-        img {
-            width: 20px;
-        }
-
-        .carousel-inner {
-            .carousel-item {
-
-                .gym__images__header,
-                .gym__images__description {
-                    color: black;
-                    background-color: white;
-                    font-family: 'Ysabeau', sans-serif;
-                    font-size: 12px;
-                }
-            }
-        }
-    }
-}
-
+//headerQueries
+// @media (max-width:990) {
+//     .navbar.navbar-expand-lg {
+//         .collapse.navbar-collapse {
+//             .navbar-nav {
+//                 display: none;
+//             }
+//         }
+//     }
+// }
 @media (max-width: 770px) {
     div {
         ul {
@@ -59,7 +43,7 @@
 
 }
 
-
+//footerQueries 
 @media (min-width: 770px) {
     .container.footer__contenedor {
         display: flex;

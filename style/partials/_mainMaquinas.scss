@@ -1,29 +1,48 @@
+#accordionPanelsStayOpenExample {
+    margin: 50px;
+}
 .accordion-body {
     .accordion__chest__images {
         width: 200px;
         margin: 10px;
-        border-radius: 4px;
-        border: black double;
+        border-radius: 5%;
+        border: black solid;
+        position: relative;
+        &:hover {
+            transform: scale(1.1);
+        }
     }
     
     .accordion__back__images {
         width: 200px;
         margin: 10px;
-        border-radius: 4px;
-        border: black double;
+        border-radius: 5%;
+        border: black solid;
+        position: relative;
+        &:hover {
+            transform: scale(1.1);
+        }
     }
     
     .accordion__legs__images {
         width: 200px;
         margin: 10px;
-        border-radius: 4px;
-        border: black double;
+        border-radius: 5%;
+        border: black solid;
+        position: relative;
+        &:hover {
+            transform: scale(1.1);
+        }
     }
     
     .accordion__other__images {
         width: 200px;
         margin: 10px;
-        border-radius: 4px;
-        border: black double;
+        border-radius: 5%;
+        border: black solid;
+        position: relative;
+        &:hover {
+            transform: scale(1.1);
+        }
     }
 }

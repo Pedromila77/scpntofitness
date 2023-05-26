@@ -1,39 +1,38 @@
-.main__bg {
-    
-    .container.main__carousel {
-        margin-bottom: 2rem;
-        width: 1250px;
-        border-radius: 10px;
-
+main {
+    .container.main__build {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         .main__tittle {
             font-family: 'Ysabeau', sans-serif;
             font-weight: 200;
             text-align: center;
             margin-block: 20px;
-            text-decoration-line: underline;
             color: white;
+            &::first-letter {
+                color: rgb(221, 64, 64);
+            }
+        }
+        .img__main {
+            width: 75%;
+            border: 2px solid white;
+            border-radius: 2%;
+            margin-block: 10px;
+            align-items: center;
 
         }
-
-        .carousel.slide {
-            img {
-                width: 40px;
+        .img__tittle {
+            font-family: 'Ysabeau', sans-serif;
+            font-weight: 200;
+            text-align: center;
+            margin-block: 20px;
+            color: white;
+            text-decoration: underline;
+            &::first-letter {
+                color: rgb(221, 64, 64);
             }
-
-            .carousel-inner {
-                .carousel-item {
-
-                    .gym__images__header,
-                    .gym__images__description {
-                        color: black;
-                        background-color: white;
-                        font-family: 'Ysabeau', sans-serif;
-                        font-size: 24px;
-                    }
-                }
-            }
-
         }
+
     }
 }
 
@@ -51,8 +50,5 @@
     padding-top: 200px;
     padding-bottom: 200px;
     margin-bottom: 0;
-
+    
 }
-
-
-

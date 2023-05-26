@@ -1,32 +1,64 @@
 header {
-    .navBar__logo {
-        width: 70px;
-        animation-name: zoom;
-        animation-duration: 2s;
-        animation-delay: 2s;
-        animation-iteration-count: initial;
-        animation-direction: alternate;
-        
-    }
+   
+   
+   .navbar-brand.nav__logo{
+       left: 0;
+       position: relative;
+       &::before,
+       &::after {
+           content: "";
+           position: absolute;
+           top: 8px;
+           left: 0px;
+           width: 75px;
+           height: 75px;
+           border-radius: 50%;
+           background-color: white;
+           opacity: 0;
+           animation: onda 1.7s infinite;
+        }
+        &::before {
+         animation-delay: 1s;
+        }
+        &::after {
+         animation-delay: 1.3s;
+        }
+}
+.navBar__logo {
+    width: 15%;
+    position: relative;
+    z-index: 2;
+   
+}
     
     .navbar.navbar-expand-lg {
-        background-color: $mainColor;
+        // background-color: $mainColor;
 
         .collapse.navbar-collapse {
-            justify-content: end;
-
-            .navbar__pages {
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
+           
+            .navbar-nav {
+              
+               
                 gap: 1rem;
                 font-family: 'Ysabeau', sans-serif;
                 font-weight: 600;
+               
+                 
+                 .nav-item {
+                     
+                     .nav-link {
+                         
+                         transition: 0;
+                         color: white;
+                         &:hover {
+                             background-color: rgb(221, 64, 64);;
+                             
+     
+                         }
+                
 
-                .nav-link {
-                    transition: 3s;
-                    &:hover {
-                        transform: rotateZ(360deg)
+                    
+    
                     }
                 }
             }
@@ -41,12 +73,17 @@ header {
     }
     
 }
-@keyframes zoom {
+
+@keyframes onda {
     0% {
-    width: 70px;
+        transform: scale(1);
+
+    }
+    15% {
+        opacity: 1;
     }
     100% {
-    width: 110px;  
+        transform: scale(1.5);
+        opacity: 0;
     }
-    
 }
